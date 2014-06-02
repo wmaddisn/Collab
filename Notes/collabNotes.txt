@@ -1,0 +1,10 @@
+Collab notes
+
+ееее have new style of difference checking without history for people simply doing diff's
+
+
+		In ManageCharChgHist
+		if ((!Taxa.inventUniqueIDs || !CharacterData.defaultInventUniqueIDs) && !MesquiteThread.isScripting())
+			discreetAlert( "A matrix in this file is set to save the history of character changes.  However, Unique IDs for taxa and characters are not set to be invented by default on your computer.  " +
+					"If you are recording the history of changes, it is best to have unique ids invented by default.   This can be turned on in the Defaults submenu of the File menu");
+		Wayne: offer to invent now

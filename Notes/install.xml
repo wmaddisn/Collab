@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<mesquite>
+	<MessagesFromHome>
+		<version>1</version>
+
+		<notice><!--COLLAB install -->
+			<forBuildNumberEqualOrGreater>544</forBuildNumberEqualOrGreater>
+			<noticeNumber>2</noticeNumber>
+			<messageType>update</messageType>
+			<identity>Collab</identity>
+			<updateVersion>001</updateVersion>
+			<packageName>Collab v. 0.?</packageName>
+			<explanation>
+			<![CDATA[
+			COLLAB enables collaborative editing of morphological matrices.  It is very experimental.
+			For out-of-date documentation, install and then look into 
+			Mesquite_Folder/mesquite/collab/notes/MesquiteCollabFeatures.doc.
+			]]>
+			</explanation>
+				<install>
+					<location>mesquite</location>
+					<file>collab</file>
+					<url>http://mesquiteproject.org/packages/collab/mesquite.collab.zip</url>
+					<treatment>unzip</treatment>
+					<updateVersion>000</updateVersion>
+				</install>
+		</notice>
+	</MessagesFromHome>
+</mesquite>
